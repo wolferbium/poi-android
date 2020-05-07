@@ -57,7 +57,7 @@ publishing {
         mavenJava(MavenPublication) {
             groupId 'com.wolferbium.poiandroid'
             artifactId 'poi'
-            version poiVersion
+            version 1.0
 
             artifact file("$buildDir/libs/poi-all.jar")
 
